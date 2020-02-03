@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32px"
+        android:paddingTop="32px"
+        android:paddingRight="32px"
+        android:text="livelife.green News Bot Manager"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/messageVerifying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32px"
+        android:paddingTop="32px"
+        android:paddingRight="32px"
+        android:text="Verifying Login"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/intentMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32px"
+        android:paddingTop="32px"
+        android:paddingRight="32px"
+        android:text="This app is intended for internal use by livelife.green moderators only."
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/licenceMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32px"
+        android:paddingTop="32px"
+        android:paddingRight="32px"
+        android:text="This app is licenced under under the GNU General Public License v3.0 available to read at https://github.com/ketchupmonki/llgNewsBot/blob/master/LICENSE"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/copyrightMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32px"
+        android:paddingTop="32px"
+        android:paddingRight="32px"
+        android:text="Copyright (C) 2020 Alexander Theulings, ketchupcomputing.com &lt;alexander@theulings.com&gt;"
+        android:textAlignment="center" />
+</LinearLayout>
